@@ -1,9 +1,9 @@
-(ns exercise1)
+(ns exercise2)
 
-(defn ten-minus-by-two
-  "Does some math calculation."
-  [x]
-  (- 10 (* 2 x)))
+(defn only-greater-than-five
+  "Filters items less than five in the list."
+  [list]
+  (filter (fn [x] (< 5 x)) list ))
 
 
 
